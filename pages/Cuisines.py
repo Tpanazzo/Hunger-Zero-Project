@@ -237,7 +237,7 @@ with col1:
       y='aggregate_rating', text='aggregate_rating', text_auto='.2f',
       title=f'Top {restaurant_slider} Best Culinary Types',
       labels={
-         "cuisines": "Tipo de culinária",
+         "cuisines": "Type of Cuisine",
          "aggregate_rating": "Average Rating"
          })
    st.plotly_chart(fig, use_container_width=True)
@@ -258,6 +258,6 @@ with col2:
       y='aggregate_rating', text='aggregate_rating', text_auto='.2f',
       title=f'Top {restaurant_slider} Worst Culinary Types',
       labels={
-         "cuisines": "Tipo de culinária",
+         "cuisines": "Type of Cuisine",
          "aggregate_rating": "Average Rating"})
    st.plotly_chart(fig, use_container_width=True)
